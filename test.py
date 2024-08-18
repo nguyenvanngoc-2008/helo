@@ -21,7 +21,7 @@ def ghi():
 	    },
 	}
 	
-	response = requests.put(f'http://api.mocky.io/api/mock/{id}', json=json_data)
+	response = requests.put(f'http://api.mocky.io/api/mock/22bc8970-76a1-4d68-9cae-ea7a180a3c47', json=json_data)
 	if response.status_code==204:
 	    return True
 	else:
